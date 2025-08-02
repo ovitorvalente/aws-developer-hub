@@ -1,8 +1,6 @@
 package repository
 
 import (
-	"strings"
-
 	"hacktown-cli/internal/domain"
 )
 
