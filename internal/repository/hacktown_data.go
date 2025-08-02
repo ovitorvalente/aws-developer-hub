@@ -3,8 +3,6 @@ package repository
 import (
 	"encoding/json"
 	"os"
-
-	"hacktown-cli/internal/domain"
 )
 
 type HacktownDataRepository struct {
