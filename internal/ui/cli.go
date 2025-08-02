@@ -70,7 +70,7 @@ func (c *CLI) isExitCommand(input string) bool {
 func (c *CLI) printHeader() {
 	fmt.Printf("%s╔══════════════════════════════════════════════════════════════╗%s\n", colorCyan, colorReset)
 	fmt.Printf("%s║%s                    🚀 HACKTOWN CLI 2025                    %s║%s\n", colorCyan, colorYellow, colorCyan, colorReset)
-	fmt.Printf("%s║%s              Assistente Inteligente com Amazon Q           %s║%s\n", colorCyan, colorWhite, colorCyan, colorReset)
+	fmt.Printf("%s║%s              Assistente Inteligente com Google Gemini      %s║%s\n", colorCyan, colorWhite, colorCyan, colorReset)
 	fmt.Printf("%s╚══════════════════════════════════════════════════════════════╝%s\n", colorCyan, colorReset)
 	fmt.Printf("%s💡 Digite sua pergunta sobre o Hacktown 2025 ou 'sair' para encerrar%s\n\n", colorGreen, colorReset)
 }
@@ -81,7 +81,7 @@ func (c *CLI) printPrompt() {
 
 func (c *CLI) printThinking() {
 	fmt.Printf("%s🔍 Consultando dados do Hacktown 2025...%s\n", colorYellow, colorReset)
-	fmt.Printf("%s🤔 Gerando resposta personalizada...%s\n", colorYellow, colorReset)
+	fmt.Printf("%s🤖 Processando com Google Gemini...%s\n", colorYellow, colorReset)
 }
 
 func (c *CLI) printAnswer(answer string) {
