@@ -1,6 +1,9 @@
+<!-- markdownlint-disable MD040 -->
+<!-- markdownlint-disable MD029 -->
+
 # Hacktown 2025 CLI
 
-Backend CLI em Go com integração Amazon Q para responder perguntas sobre o Hacktown 2025 em tempo real.
+Backend CLI em Go com integração Google Gemini para responder perguntas sobre o Hacktown 2025 em tempo real.
 
 ## Arquitetura
 
@@ -19,12 +22,14 @@ Projeto estruturado seguindo Clean Code e princípios SOLID:
 
 ## Configuração
 
-1. Configure a variável de ambiente:
+1. Configure a variável de ambiente no arquivo .env:
+
 ```bash
-export AMAZON_Q_TOKEN="seu_token_aqui"
+GEMINI_API_KEY=sua_chave_aqui
 ```
 
 2. Execute o CLI:
+
 ```bash
 go run cmd/main.go
 ```
@@ -32,9 +37,9 @@ go run cmd/main.go
 ## Funcionalidades
 
 - 🔍 **Web Scraping**: Extrai informações atuais do hacktown.com.br
-- 🤖 **Integração Amazon Q**: Processa conteúdo real com IA
+- 🤖 **Integração Google Gemini**: Processa conteúdo real com IA
 - 💾 **Cache Inteligente**: Cache de 5 minutos para otimizar consultas
-- 🎨 **Interface Visual**: CLI colorido e formatado  
+- 🎨 **Interface Visual**: CLI colorido e formatado
 - 🔄 **Sistema Fallback**: Respostas locais quando site/API indisponível
 - ⚡ **Timeout**: 10 segundos para consultas
 - 📅 **Dados Estruturados**: Base de conhecimento com programação completa
@@ -53,15 +58,15 @@ go run cmd/main.go
 ```
 ╔══════════════════════════════════════════════════════════════╗
 ║                    🚀 HACKTOWN 2025 CLI                    ║
-║              Assistente Inteligente com Amazon Q           ║
+║              Assistente Inteligente com Google Gemini      ║
 ╚══════════════════════════════════════════════════════════════╝
 💡 Digite sua pergunta sobre o Hacktown 2025 ou 'sair' para encerrar
 
 ❯ quando será o hacktown?
 🔍 Consultando dados do Hacktown 2025...
-🤔 Gerando resposta personalizada...
+🤖 Processando com Google Gemini...
 ┌─ Resposta:
-│ 📅 O HackTown 2025 acontece de 31 de julho a 3 de agosto de 2025 em Santa Rita do Sapucaí, MG! 
+│ 📅 O HackTown 2025 acontece de 31 de julho a 3 de agosto de 2025 em Santa Rita do Sapucaí, MG!
 │ É o maior festival de inovação, criatividade e tecnologia da América Latina, com mais de 1.000 atividades.
 └────────────────────────────────────────────────────────────────
 ```
