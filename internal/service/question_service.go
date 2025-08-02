@@ -8,7 +8,7 @@ import (
 )
 
 type QuestionServiceImpl struct {
-	amazonQRepo      *repository.MockAmazonQRepository
+	geminiRepo       *repository.GeminiRepository
 	fallbackRepo     *repository.FallbackRepository
 	webScraperRepo   *repository.WebScraperRepository
 	cacheRepo        *repository.CacheRepository
@@ -17,7 +17,7 @@ type QuestionServiceImpl struct {
 
 func NewQuestionService() domain.QuestionService {
 	return &QuestionServiceImpl{
-		amazonQRepo:      repository.NewMockAmazonQRepository(), // Usando mock para testes
+		geminiRepo:       repository.NewGeminiRepository(),
 		fallbackRepo:     repository.NewFallbackRepository(),
 		webScraperRepo:   repository.NewWebScraperRepository(),
 		cacheRepo:        repository.NewCacheRepository(),
@@ -39,7 +39,7 @@ DADOS OFICIAIS DO HACKTOWN 2025 (FONTE CONFIÁVEL):
 INSTRUÇÕES IMPORTANTES:
 - SEMPRE use as datas dos dados oficiais: 31 de julho a 3 de agosto de 2025
 - NUNCA mencione setembro - o evento é em julho/agosto
-- Responda em português brasileiro de forma natural
+- Responda em português brasileiro de forma natural e concisa
 - Use emojis quando apropriado
 - Para datas específicas, consulte o campo "data_inicio" e "data_fim"
 - Para programação, use as atividades listadas por data
@@ -48,8 +48,8 @@ INSTRUÇÕES IMPORTANTES:
 PERGUNTA: %s`, hacktownData, question.Text),
 	}
 
-	// Consulta Amazon Q com contexto rico
-	answer, err := s.amazonQRepo.Query(contextualQuestion)
+	// Consulta Google Gemini com contexto rico
+	answer, err := s.geminiRepo.Query(contextualQuestion)
 	if err != nil {
 		return s.fallbackRepo.GetAnswer(question)
 	}
