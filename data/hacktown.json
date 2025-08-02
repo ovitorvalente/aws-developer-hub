@@ -1,0 +1,188 @@
+{
+  "hacktown2025": {
+    "data_inicio": "2025-07-31",
+    "data_fim": "2025-08-03",
+    "local": "Santa Rita do Sapucaí, MG",
+    "descricao": "O HackTown 2025 é o maior festival de inovação, criatividade e tecnologia da América Latina, reunindo mais de 1.000 atividades espalhadas por toda a cidade.",
+    "programacao": [
+      {
+        "data": "2025-07-31",
+        "atividades": [
+          {
+            "hora": "10:00",
+            "titulo": "Abertura Oficial",
+            "descricao": "Cerimônia de abertura com autoridades locais e organizadores do evento.",
+            "local": "Praça Central"
+          },
+          {
+            "hora": "14:00",
+            "titulo": "Palestra: 'Inovação no Século XXI'",
+            "descricao": "Discussão sobre as principais tendências em inovação tecnológica.",
+            "local": "Auditório Inatel"
+          },
+          {
+            "hora": "16:00",
+            "titulo": "Oficina: 'Criando Startups de Sucesso'",
+            "descricao": "Workshop prático sobre como iniciar e escalar uma startup.",
+            "local": "Espaço Coworking"
+          },
+          {
+            "hora": "19:00",
+            "titulo": "Show Musical: 'Bandas Locais'",
+            "descricao": "Apresentações de bandas locais para animar o público.",
+            "local": "Avenida HackTown"
+          }
+        ]
+      },
+      {
+        "data": "2025-08-01",
+        "atividades": [
+          {
+            "hora": "09:00",
+            "titulo": "Painel: 'O Futuro da Inteligência Artificial'",
+            "descricao": "Especialistas discutem as implicações da IA no futuro próximo.",
+            "local": "Auditório Inatel"
+          },
+          {
+            "hora": "11:00",
+            "titulo": "Oficina: 'Design Thinking para Inovação'",
+            "descricao": "Métodos de design thinking aplicados à resolução de problemas.",
+            "local": "Espaço Criativo"
+          },
+          {
+            "hora": "14:00",
+            "titulo": "Palestra: 'Empreendedorismo Sustentável'",
+            "descricao": "Como criar negócios com impacto ambiental positivo.",
+            "local": "Auditório Inatel"
+          },
+          {
+            "hora": "16:00",
+            "titulo": "Show Musical: 'Artistas Independentes'",
+            "descricao": "Apresentações de artistas independentes da região.",
+            "local": "Praça da Cultura"
+          }
+        ]
+      },
+      {
+        "data": "2025-08-02",
+        "atividades": [
+          {
+            "hora": "10:00",
+            "titulo": "Workshop: 'Blockchain e suas Aplicações'",
+            "descricao": "Introdução ao blockchain e suas diversas aplicações.",
+            "local": "Espaço Tecnológico"
+          },
+          {
+            "hora": "12:00",
+            "titulo": "Palestra: 'Transformação Digital nas Empresas'",
+            "descricao": "Como as empresas estão se adaptando à transformação digital.",
+            "local": "Auditório Inatel"
+          },
+          {
+            "hora": "15:00",
+            "titulo": "Mesa Redonda: 'Diversidade e Inclusão no Mercado de Tecnologia'",
+            "descricao": "Debate sobre a importância da diversidade no setor tecnológico.",
+            "local": "Espaço de Convivência"
+          },
+          {
+            "hora": "18:00",
+            "titulo": "Show Musical: 'Bandas Regionais'",
+            "descricao": "Apresentações de bandas regionais para encerrar o dia.",
+            "local": "Avenida HackTown"
+          }
+        ]
+      },
+      {
+        "data": "2025-08-03",
+        "atividades": [
+          {
+            "hora": "09:00",
+            "titulo": "Palestra: 'O Impacto da Tecnologia na Sociedade'",
+            "descricao": "Discussão sobre como a tecnologia está moldando a sociedade moderna.",
+            "local": "Auditório Inatel"
+          },
+          {
+            "hora": "11:00",
+            "titulo": "Oficina: 'Marketing Digital para Iniciantes'",
+            "descricao": "Dicas e estratégias de marketing digital para novos negócios.",
+            "local": "Espaço Criativo"
+          },
+          {
+            "hora": "13:00",
+            "titulo": "Palestra de Encerramento: 'O Futuro da Inovação'",
+            "descricao": "Reflexões sobre o futuro da inovação e o que esperar nos próximos anos.",
+            "local": "Auditório Inatel"
+          },
+          {
+            "hora": "15:00",
+            "titulo": "Show Musical: 'Encerramento com Chave de Ouro'",
+            "descricao": "Apresentações musicais para encerrar o HackTown 2025 com celebração.",
+            "local": "Praça Central"
+          }
+        ]
+      }
+    ],
+    "parceiros": [
+      {
+        "nome": "Amazon Web Services (AWS)",
+        "descricao": "A AWS estará presente com o 'Vibe Coding Dojo', oferecendo experiências práticas com o Amazon Q Developer e workshops sobre IA generativa.",
+        "atividades": [
+          {
+            "nome": "AWS Vibe Coding Dojo",
+            "descricao": "Sessões práticas de programação colaborativa utilizando o Amazon Q Developer.",
+            "local": "ETE FMC",
+            "datas": ["31/07", "01/08", "02/08", "03/08"],
+            "horarios": ["10:00-12:30"]
+          },
+          {
+            "nome": "Workshop Amazon Bedrock",
+            "descricao": "Workshop prático sobre o uso do Amazon Bedrock para desenvolvimento de aplicações com IA.",
+            "local": "INATEL",
+            "datas": ["03/08"],
+            "horarios": ["10:00-12:30"]
+          }
+        ]
+      }
+    ],
+    "espacos": [
+      {
+        "nome": "Casa Futuros Possíveis",
+        "descricao": "Espaço dedicado à reflexão sobre o papel da humanidade na era da inteligência artificial, promovendo discussões sobre ética, tecnologia e colaboração.",
+        "local": "Centro Histórico"
+      },
+      {
+        "nome": "Vila Hacker",
+        "descricao": "Hospedagem e espaço de convivência para participantes, com estrutura de coworking, Wi-Fi e áreas de descanso, localizada na primeira escola técnica de eletrônica da América Latina.",
+        "local": "ETE FMC"
+      }
+    ],
+    "trilhas": [
+      {
+        "nome": "Design, UX e Acessibilidade",
+        "descricao": "Soluções físicas e digitais que unem forma, função e inclusão, criando experiências centradas no usuário por meio da integração entre estética, tecnologia e empatia.",
+        "atividades": [
+          {
+            "titulo": "Workshop de Design Inclusivo",
+            "descricao": "Técnicas e práticas para criar interfaces acessíveis e inclusivas.",
+            "local": "Espaço Criativo",
+            "datas": ["01/08"],
+            "horarios": ["14:00-16:00"]
+          }
+        ]
+      },
+      {
+        "nome": "Desenvolvimento de Hardware e Software",
+        "descricao": "Tendências em dispositivos, sistemas e IA redefinem a interação entre pessoas e tecnologia, otimizando processos e experiências.",
+        "atividades": [
+          {
+            "titulo": "Hackathon de IoT",
+            "descricao": "Desenvolvimento de soluções inovadoras utilizando Internet das Coisas.",
+            "local": "Espaço Tecnológico",
+            "datas": ["02/08"],
+            "horarios": ["10:00-18:00"]
+          }
+        ]
+      }
+    ]
+  }
+}
